@@ -27,7 +27,7 @@ ventana.title("Formulario")
 ventana.iconbitmap(os.path.join(os.path.dirname(__file__), "myicon.ico"))
 
 # Se define el tamaño de la vantana donde w(ancho) x h(alto)
-ventana.geometry("300x200")
+ventana.geometry("400x400")
 # 1 = True, 0 = False
 puede_cambiar_tamaño_del_ancho = False
 puede_cambiar_tamaño_del_alto = False
