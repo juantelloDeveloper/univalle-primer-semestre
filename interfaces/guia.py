@@ -29,7 +29,7 @@ ventana.iconbitmap(os.path.join(os.path.dirname(__file__), "myicon.ico"))
 # Se define el tamaño de la vantana donde w(ancho) x h(alto)
 ventana.geometry("400x400")
 # 1 = True, 0 = False
-puede_cambiar_tamaño_del_ancho = False
+puede_cambiar_tamaño_del_ancho = True
 puede_cambiar_tamaño_del_alto = False
 
 ventana.resizable(puede_cambiar_tamaño_del_ancho,puede_cambiar_tamaño_del_alto)
